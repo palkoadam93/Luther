@@ -1,6 +1,8 @@
 /*önálló fejléc-mező cella*/
 .regrow {
 	font-family: Arial;
+	font-weight:bold;
+	font-size:11px;
    	color: white;
    	background-color: black;
 }
