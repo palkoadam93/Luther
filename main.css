@@ -1,41 +1,14 @@
-
-<!--
-
-body,td,th {
-	color: white; /*szöveg színe*/
-}
-body {
-	background-color: #CCCCCC; /*hátsó háttér*/
-}
-a:link {
-	color: blue;
-}
-a:visited {
-	color: red;
-}
-a:hover {
-	color: green;
-}
-a:active {
-	color: yellow;
-}
--->
-
-
 /*önálló fejléc-mező cella*/
 .regrow {
-	font-family: Verdana, Sans-serif;
-   	color: yellow;
-   	background-color: #CCCCCC;
-	border: 1px black solid;
+	font-family: Arial;
+   	color: white;
+   	background-color: black;
 }
 
 .fejlec {
-	font-family: Verdana, Sans-serif;
+	font-family: Arial;
 	font-weight: bold;
-   	color: white;
-   	background-color: black;
-   	font-size: 11px
+   	font-size: 11px;
 }
 
 .mezo {
@@ -46,13 +19,26 @@ a:active {
    	
 } 
 
-/*a főtáblázat*/
-.fo {
-   	width: 100%;
-   	padding: 0px;
+.kep{
+	width:100%;
+}
+
+.bal{
+	float: left;
+	width: 23%;
+	font-family: Arial;
+	font-size:12px;
+	text-align:justify;
+}
+
+.jobb {
+	float: right;
+   	width: 75%;
    	font-family: Verdana,Sans-serif;
    	font-size: 12px;
-} 
+	text-align: justify;
+}
 
--->
-
+.c {
+	text-align: center;
+}
