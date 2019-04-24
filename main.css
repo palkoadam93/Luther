@@ -13,6 +13,7 @@
 
 .kep{
 	width:100%;
+	padding-top:1px;
 }
 
 .bal{
@@ -33,4 +34,13 @@
 
 .c {
 	text-align: center;
+}
+
+.keret{
+	border: solid black 1px;
+	padding:1px;
+}
+
+.lt{
+	padding:10px;
 }
